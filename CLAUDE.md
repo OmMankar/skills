@@ -10,6 +10,10 @@ A personal collection of Claude Code Agent Skills (see README.md: "Skills for my
 
 One directory per skill, each containing a `SKILL.md`. The directory name is the skill's invocation name (`conventional-commit/SKILL.md` → `/conventional-commit`).
 
+## Skills
+
+- `conventional-commit` — proposes one Conventional-Commits-style message for the staged diff and waits for approval before committing. Never stages files itself.
+
 ## SKILL.md contract
 
 Every `SKILL.md` starts with YAML frontmatter:
